@@ -1,3 +1,7 @@
+@use './variables';
+@use './card';
+@use './stars';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,8 +15,5 @@ body {
 
   font-family: Roboto, sans-serif;
 
-  background-color: #f5f5f5;
+  background-color: #f3f3f3;
 }
-
-@import './card';
-@import './stars';
